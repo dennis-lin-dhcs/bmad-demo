@@ -1,0 +1,29 @@
+# BMAD framework-installed / compiled artifacts
+_bmad/core/
+_bmad/bmm/
+_bmad/custom/
+
+# Keep project-specific config
+!_bmad/
+!_bmad/_config/
+!_bmad/_config/**
+
+# Ignore BMAD local/project memory
+_bmad/_memory/
+
+# Keep durable project context and planning docs
+!_bmad-output/
+!_bmad-output/project-context.md
+!_bmad-output/planning-artifacts/
+!_bmad-output/planning-artifacts/**
+
+# Optional: uncomment if you want to ignore all other BMAD output by default
+# _bmad-output/*
+# !_bmad-output/project-context.md
+# !_bmad-output/planning-artifacts/
+# !_bmad-output/planning-artifacts/**
+
+# Common local artifacts
+.DS_Store
+Thumbs.db
+*.log
